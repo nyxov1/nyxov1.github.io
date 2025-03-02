@@ -131,3 +131,31 @@ body {
         font-size: 16px;
     }
 }
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.game-tile {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom right, #FDE68A, #FBCFE8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, opacity 0.3s;
+}
+
+.game-tile:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
